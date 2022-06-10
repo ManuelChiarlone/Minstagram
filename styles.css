@@ -1,4 +1,10 @@
 *{margin: 0px;}
+header{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
 nav{
     border-bottom: solid 2px rgb(213, 213, 213);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 5px;
@@ -16,16 +22,14 @@ nav{
     width: 10%;
     height: 6%;
     margin-top: 8px;
-    max-width: 10%;
+    max-width: 2rem;
     max-height: 6%;
-    margin-left: 9rem;
 }
 .topcard,.midcard,.bottomcard{
     max-width: 310px;
 }
 .conteinercard{
-
-    margin: auto;
+    margin: auto auto;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -35,16 +39,15 @@ nav{
     margin: 5px;
     margin-top: 10px;
     max-width: 320px;
-    padding: 1rem 1rem;
     margin: 1rem 5vw;
 }   
 .topcard{
     display: flex;
 }
 .imgperfil{
-    width: 8vw;
+    width: 10%;
     height: 5vh;
-    max-width: 8vw;
+    max-width: 10%;
     max-height: 5vh;
     border-radius: 50%;
     margin: 3px;
@@ -56,12 +59,12 @@ nav{
     margin-top: 8px;
 }
 .info{
-    width: 8vw;
-    height: 5vh;
+    width: 30px;
+    height: 30px;
     margin-top: 4px;
-    margin-left: 11rem;
-    max-width: 8vw;
-    max-height: 5vh;
+    margin-left: 180px;
+    max-width: 30px;
+    max-height: 30px;
 }
 .mg{
     width: 7%;
