@@ -1,0 +1,84 @@
+*{margin: 0px;}
+nav{
+    border-bottom: solid 2px rgb(213, 213, 213);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+#titulo{
+    font-family: 'Pacifico', cursive;
+    margin-left: 3px;
+    margin-bottom: 2px;
+    color: rgb(21, 21, 21);
+}
+#camara{
+    width: 10%;
+    height: 6%;
+    margin-top: 8px;
+    max-width: 10%;
+    max-height: 6%;
+    margin-left: 9rem;
+}
+.topcard,.midcard,.bottomcard{
+    max-width: 310px;
+}
+.conteinercard{
+
+    margin: auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 5px;
+    margin-top: 10px;
+    max-width: 320px;
+    padding: 1rem 1rem;
+    margin: 1rem 5vw;
+}   
+.topcard{
+    display: flex;
+}
+.imgperfil{
+    width: 8vw;
+    height: 5vh;
+    max-width: 8vw;
+    max-height: 5vh;
+    border-radius: 50%;
+    margin: 3px;
+    
+}
+.nombreperfil{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 8px;
+}
+.info{
+    width: 8vw;
+    height: 5vh;
+    margin-top: 4px;
+    margin-left: 11rem;
+    max-width: 8vw;
+    max-height: 5vh;
+}
+.mg{
+    width: 7%;
+    height: 4%;
+    margin-left: 5px;
+    max-width: 7%;
+    max-height: 4%;
+}
+.guardar{
+    width: 7%;
+    height: 4%;
+    margin-left: 250px;
+    max-width: 7%;
+    max-height: 4%;
+}
+.pfecha{
+    margin: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
